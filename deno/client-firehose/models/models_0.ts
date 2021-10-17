@@ -1,4 +1,4 @@
-import { Buffer } from "https://deno.land/std@0.101.0/node/buffer.ts";
+import { Buffer } from "https://deno.land/std@0.111.0/node/buffer.ts";
 import { SENSITIVE_STRING } from "../../smithy-client/mod.ts";
 import { MetadataBearer as $MetadataBearer, SmithyException as __SmithyException } from "../../types/mod.ts";
 

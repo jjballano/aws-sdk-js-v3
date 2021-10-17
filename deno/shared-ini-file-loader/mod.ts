@@ -1,7 +1,7 @@
-import process from "https://deno.land/std@0.101.0/node/process.ts";
-import { readFile } from "https://deno.land/std@0.101.0/node/fs.ts";
-import { homedir } from "https://deno.land/std@0.101.0/node/os.ts";
-import { join, sep } from "https://deno.land/std@0.101.0/node/path.ts";
+import process from "https://deno.land/std@0.111.0/node/process.ts";
+import { readFile } from "https://deno.land/std@0.111.0/node/fs.ts";
+import { homedir } from "https://deno.land/std@0.111.0/node/os.ts";
+import { join, sep } from "https://deno.land/std@0.111.0/node/path.ts";
 
 export const ENV_CREDENTIALS_PATH = "AWS_SHARED_CREDENTIALS_FILE";
 export const ENV_CONFIG_PATH = "AWS_CONFIG_FILE";

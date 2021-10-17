@@ -1,7 +1,7 @@
-import process from "https://deno.land/std@0.101.0/node/process.ts";
+import process from "https://deno.land/std@0.111.0/node/process.ts";
 import { SENSITIVE_STRING } from "../../smithy-client/mod.ts";
 import { MetadataBearer as $MetadataBearer, SmithyException as __SmithyException } from "../../types/mod.ts";
-import { Readable } from "https://deno.land/std@0.101.0/node/stream.ts";
+import { Readable } from "https://deno.land/std@0.111.0/node/stream.ts";
 
 export enum AccessDeniedExceptionReason {
   DEPENDENCY_ACCESS_DENIED = "DEPENDENCY_ACCESS_DENIED",

@@ -1,4 +1,4 @@
-import { Buffer } from "https://deno.land/std@0.101.0/node/buffer.ts";
+import { Buffer } from "https://deno.land/std@0.111.0/node/buffer.ts";
 import { DeleteSessionCommandInput, DeleteSessionCommandOutput } from "../commands/DeleteSessionCommand.ts";
 import { GetSessionCommandInput, GetSessionCommandOutput } from "../commands/GetSessionCommand.ts";
 import { PostContentCommandInput, PostContentCommandOutput } from "../commands/PostContentCommand.ts";

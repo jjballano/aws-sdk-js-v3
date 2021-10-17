@@ -1,4 +1,4 @@
-import { Buffer } from "https://deno.land/std@0.101.0/node/buffer.ts";
+import { Buffer } from "https://deno.land/std@0.111.0/node/buffer.ts";
 import { PutObjectCommandInput, S3Client, Tag } from "../client-s3/mod.ts";
 
 export interface Progress {

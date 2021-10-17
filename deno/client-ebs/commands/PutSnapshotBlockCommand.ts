@@ -1,4 +1,4 @@
-import { Buffer } from "https://deno.land/std@0.101.0/node/buffer.ts";
+import { Buffer } from "https://deno.land/std@0.111.0/node/buffer.ts";
 import { EBSClientResolvedConfig, ServiceInputTypes, ServiceOutputTypes } from "../EBSClient.ts";
 import { PutSnapshotBlockRequest, PutSnapshotBlockResponse } from "../models/models_0.ts";
 import {

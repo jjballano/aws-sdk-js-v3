@@ -1,4 +1,4 @@
-import process from "https://deno.land/std@0.101.0/node/process.ts";
+import process from "https://deno.land/std@0.111.0/node/process.ts";
 export const emitWarningIfUnsupportedVersion = (version: string) => {
   if (version && parseInt(version.substring(1, version.indexOf("."))) < 12) {
     process.emitWarning(

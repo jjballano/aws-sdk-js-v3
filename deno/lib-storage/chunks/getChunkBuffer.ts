@@ -1,4 +1,4 @@
-import { Buffer } from "https://deno.land/std@0.101.0/node/buffer.ts";
+import { Buffer } from "https://deno.land/std@0.111.0/node/buffer.ts";
 import { RawDataPart } from "../Upload.ts";
 
 export async function* getChunkBuffer(data: Buffer, partSize: number): AsyncGenerator<RawDataPart, void, undefined> {

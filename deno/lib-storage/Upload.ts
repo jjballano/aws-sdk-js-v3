@@ -8,7 +8,7 @@ import {
   Tag,
   UploadPartCommand,
 } from "../client-s3/mod.ts";
-import { EventEmitter } from "https://deno.land/std@0.101.0/node/events.ts";
+import { EventEmitter } from "https://deno.land/std@0.111.0/node/events.ts";
 import { BodyDataTypes, Options, Progress, ServiceClients } from "./types.ts";
 import { getChunk } from "./chunker.ts";
 import { byteLength } from "./bytelength.ts";

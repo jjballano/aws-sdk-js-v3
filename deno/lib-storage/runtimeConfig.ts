@@ -1,5 +1,5 @@
 import { ClientSharedValues } from "./runtimeConfig.shared.ts";
-import { lstatSync } from "https://deno.land/std@0.101.0/node/fs.ts";
+import { lstatSync } from "https://deno.land/std@0.111.0/node/fs.ts";
 
 /**
  * @internal

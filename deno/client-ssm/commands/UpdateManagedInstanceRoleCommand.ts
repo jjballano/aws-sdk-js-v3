@@ -1,4 +1,4 @@
-import process from "https://deno.land/std@0.101.0/node/process.ts";
+import process from "https://deno.land/std@0.111.0/node/process.ts";
 import { SSMClientResolvedConfig, ServiceInputTypes, ServiceOutputTypes } from "../SSMClient.ts";
 import { UpdateManagedInstanceRoleRequest, UpdateManagedInstanceRoleResult } from "../models/models_2.ts";
 import {

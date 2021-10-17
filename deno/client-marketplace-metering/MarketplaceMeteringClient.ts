@@ -1,4 +1,4 @@
-import process from "https://deno.land/std@0.101.0/node/process.ts";
+import process from "https://deno.land/std@0.111.0/node/process.ts";
 import { BatchMeterUsageCommandInput, BatchMeterUsageCommandOutput } from "./commands/BatchMeterUsageCommand.ts";
 import { MeterUsageCommandInput, MeterUsageCommandOutput } from "./commands/MeterUsageCommand.ts";
 import { RegisterUsageCommandInput, RegisterUsageCommandOutput } from "./commands/RegisterUsageCommand.ts";

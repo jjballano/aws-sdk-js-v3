@@ -1,7 +1,7 @@
-import { Buffer } from "https://deno.land/std@0.101.0/node/buffer.ts";
+import { Buffer } from "https://deno.land/std@0.111.0/node/buffer.ts";
 import { EventStreamMarshaller as EventMarshaller } from "../eventstream-marshaller/mod.ts";
 import { EventSigner, MessageHeaders } from "../types/mod.ts";
-import { Transform, TransformCallback, TransformOptions } from "https://deno.land/std@0.101.0/node/stream.ts";
+import { Transform, TransformCallback, TransformOptions } from "https://deno.land/std@0.111.0/node/stream.ts";
 
 export interface EventSigningStreamOptions extends TransformOptions {
   priorSignature: string;

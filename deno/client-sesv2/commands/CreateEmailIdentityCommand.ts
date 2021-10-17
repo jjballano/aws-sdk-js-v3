@@ -1,4 +1,4 @@
-import process from "https://deno.land/std@0.101.0/node/process.ts";
+import process from "https://deno.land/std@0.111.0/node/process.ts";
 import { SESv2ClientResolvedConfig, ServiceInputTypes, ServiceOutputTypes } from "../SESv2Client.ts";
 import { CreateEmailIdentityRequest, CreateEmailIdentityResponse } from "../models/models_0.ts";
 import {

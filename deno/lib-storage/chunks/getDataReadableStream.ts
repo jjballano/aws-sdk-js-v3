@@ -1,5 +1,5 @@
-import { Buffer } from "https://deno.land/std@0.101.0/node/buffer.ts";
-import { Buffer } from "https://deno.land/std@0.101.0/node/buffer.ts";
+import { Buffer } from "https://deno.land/std@0.111.0/node/buffer.ts";
+import { Buffer } from "https://deno.land/std@0.111.0/node/buffer.ts";
 
 export async function* getDataReadableStream(data: ReadableStream): AsyncGenerator<Buffer> {
   // Get a lock on the stream.

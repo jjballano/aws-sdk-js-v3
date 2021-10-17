@@ -1,5 +1,5 @@
-import { Buffer } from "https://deno.land/std@0.101.0/node/buffer.ts";
-import { Readable } from "https://deno.land/std@0.101.0/node/stream.ts";
+import { Buffer } from "https://deno.land/std@0.111.0/node/buffer.ts";
+import { Readable } from "https://deno.land/std@0.111.0/node/stream.ts";
 export function streamReader(
   stream: Readable,
   onChunk: (chunk: Uint8Array) => void,

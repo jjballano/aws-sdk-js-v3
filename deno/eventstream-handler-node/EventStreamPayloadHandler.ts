@@ -12,7 +12,7 @@ import {
   MetadataBearer,
   Provider,
 } from "../types/mod.ts";
-import { PassThrough, pipeline, Readable } from "https://deno.land/std@0.101.0/node/stream.ts";
+import { PassThrough, pipeline, Readable } from "https://deno.land/std@0.111.0/node/stream.ts";
 
 import { EventSigningStream } from "./EventSigningStream.ts";
 

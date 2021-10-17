@@ -1,7 +1,7 @@
 import { loadConfig } from "../node-config-provider/mod.ts";
 import { Provider, UserAgent } from "../types/mod.ts";
-import { platform, release } from "https://deno.land/std@0.101.0/node/os.ts";
-import { env, versions } from "https://deno.land/std@0.101.0/node/process.ts";
+import { platform, release } from "https://deno.land/std@0.111.0/node/os.ts";
+import { env, versions } from "https://deno.land/std@0.111.0/node/process.ts";
 
 export const UA_APP_ID_ENV_NAME = "AWS_SDK_UA_APP_ID";
 export const UA_APP_ID_INI_NAME = "sdk-ua-app-id";

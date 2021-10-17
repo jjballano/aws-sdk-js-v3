@@ -64,7 +64,7 @@ import {
   VpcOutputSettingsDescription,
 } from "./models_0.ts";
 import { MetadataBearer as $MetadataBearer, SmithyException as __SmithyException } from "../../types/mod.ts";
-import { Readable } from "https://deno.land/std@0.101.0/node/stream.ts";
+import { Readable } from "https://deno.land/std@0.111.0/node/stream.ts";
 
 export enum SmoothGroupSparseTrackType {
   NONE = "NONE",
